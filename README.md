@@ -25,5 +25,5 @@ AI: Gemini API
 ## Team CodeStorm
 - Rudra Agarwal – Frontend Development
 - Ratnadeep Bera – Backend Development
-- Soumyadeep Halder – Backend Development
+- Soumyadeep Haldar – Backend Development
 - Sulay Ghosh Dastidar – Research & Presentation

@@ -1,0 +1,41 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-cinematic",
+      "description": "A focused, ambitious engineer at a dark desk setup, looking at a glowing laptop screen displaying an AI interview analytics dashboard with a circular confidence score, technical accuracy bars, and performance metrics. Serious expression, purple and blue ambient lighting, clean and modern product-driven aesthetic.",
+      "imageUrl": "https://picsum.photos/seed/ai-mock-v1/1200/800",
+      "imageHint": "interview analysis"
+    },
+    {
+      "id": "hero-interview",
+      "description": "Professional AI interview interface",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhaSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzcyMTkzNDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai technology"
+    },
+    {
+      "id": "dashboard-preview",
+      "description": "AI analytics dashboard preview",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594225-3e92c0cd51b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MHx8fHwxNzcyMTI4MjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "User profile avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb3J0cmFpdHxlbnwwfHx8fDE3NzIxNDcxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "User profile avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb3J0cmFpdHxlbnwwfHx8fDE3NzIxNDcxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait"
+    },
+    {
+      "id": "user-avatar-3",
+      "description": "User profile avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdHxlbnwwfHx8fDE3NzIxNDcxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait"
+    }
+  ]
+}

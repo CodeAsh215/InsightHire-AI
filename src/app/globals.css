@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 14% 6%;
+    --foreground: 240 13% 95%;
+    --card: 240 14% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 14% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 258 83% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 14% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 215 14% 65%;
+    --muted-foreground: 215 14% 65%;
+    --accent: 258 83% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 14% 15%;
+    --input: 240 14% 15%;
+    --ring: 258 83% 60%;
+    --radius: 1.25rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-[#C9C9D6] font-body antialiased;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight text-white;
+  }
+}
+
+.glass {
+  @apply bg-[#1A1A22]/40 backdrop-blur-xl border border-white/5;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.glass-darker {
+  @apply bg-background/80 backdrop-blur-2xl border border-white/5;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#A78BFA] via-[#8B5CF6] to-[#7C3AED];
+}
+
+.glow-primary {
+  box-shadow: 0 0 35px -5px hsla(258, 83%, 60%, 0.35);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-muted/20 rounded-full hover:bg-muted/40 transition-colors;
+}
+
+/* Typography Overrides */
+.hero-headline {
+  @apply text-[64px] font-bold leading-[1.1] tracking-[-0.02em];
+}
+
+.section-headline {
+  @apply text-[38px] md:text-[42px] font-semibold tracking-tight leading-[1.2];
+}
+
+.subheadline {
+  @apply text-[18px] md:text-[20px] font-normal leading-relaxed text-[#B3B3C3];
+}
+
+.card-title {
+  @apply text-[22px] font-semibold tracking-tight;
+}

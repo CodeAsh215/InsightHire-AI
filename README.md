@@ -1,73 +1,29 @@
 # InsightHire AI
-InsightHire AI is an AI-powered interview simulator designed to help students and job seekers practice technical and HR interviews in a realistic environment.
-This project was developed as part of a hackathon with the goal of improving interview preparation through interactive and modern web technologies.
----
+
+InsightHire AI is an AI-powered interview simulation platform that helps candidates practice technical interviews in a realistic environment while receiving intelligent feedback.
+
 ## Features
-• Interactive mock interview interface  
-• Clean and modern UI design  
-• Responsive layout for different devices  
-• Realistic interview practice experience  
-• Scalable architecture for backend and AI integration  
----
+- AI-generated interview questions
+- Role-based interview simulation
+- Voice response capability
+- AI-powered performance analysis
+- Recruiter evaluation dashboard
+- Modern responsive UI
+
 ## Tech Stack
-Frontend:
-- React / Next.js
-- JavaScript
-- HTML5
-- CSS3 / Tailwind CSS
-Backend (planned):
-- Node.js
-- Express.js
-Other Tools:
-- Firebase Studio
-- GitHub
----
-## Installation and Setup
-Follow these steps to run the project locally.
-### 1. Clone the repository
-git clone:https://github.com/CodeAsh215/InsightHire-AI.git
-### 2. Navigate to the project folder
-cd InsightHire-AI
-### 3. Install dependencies
-npm install
-### 5. Open the application
-Open the following URL in your browser:http://localhost:9002
----
-## Project Structure
-The project follows a modular structure to keep the code organized and scalable.
-insighthire-ai
-│
-├── src
-│   ├── components
-│   ├── pages / app
-│   └── styles
-│
-├── public
-│
-├── package.json
-│
-└── README.md
----
-## Features
-• Interactive mock interview interface  
-• Clean and modern UI  
-• Responsive design for multiple screen sizes  
-• Realistic interview environment simulation  
-• Easy integration with backend APIs
----
-## Future Improvements
-The following features can be added in future versions of the project:
-• AI-powered interview feedback  
-• Voice-based interview simulation  
-• Resume analysis system  
-• Interview performance analytics dashboard  
-• Company-specific interview practice modes  
----
-## Hackathon
-This project was developed during a hackathon to explore how modern web technologies and AI tools can improve the interview preparation experience for students and job seekers.
----
-## Author
-Rudra Agarwal
----
-## License
-This project is open-source and intended for educational and learning purposes.
+Frontend: Next.js, React, TailwindCSS  
+Backend: Python  
+AI: Gemini API  
+
+## How It Works
+1. User selects a job role
+2. AI generates interview questions
+3. Candidate answers using text or voice
+4. AI analyzes the response
+5. Feedback and improvement suggestions are generated
+
+## Team CodeStorm
+- Rudra Agarwal – Frontend Development
+- Ratnadeep Bera – Backend Development
+- Soumyadeep Halder – Backend Development
+- Sulay Ghosh Dastidar – Research & Presentation
